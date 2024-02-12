@@ -15,7 +15,7 @@ public class PokemonMapper {
             PokemonResponseDto pokemonResponseDto = mapper.readValue(string, mapper.getTypeFactory().constructType(PokemonResponseDto.class));
             return pokemonResponseDto.getPokemonLiteDtoList();
         } catch (Exception e) {
-            return Collections.EMPTY_LIST;
+            return Collections.emptyList();
         }
     }
 }

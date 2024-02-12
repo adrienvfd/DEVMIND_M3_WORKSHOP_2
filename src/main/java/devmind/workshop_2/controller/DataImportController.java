@@ -1,8 +1,7 @@
 package devmind.workshop_2.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import devmind.workshop_2.entity.Pokemon;
 import devmind.workshop_2.dto.PokemonLiteDto;
+import devmind.workshop_2.entity.Pokemon;
 import devmind.workshop_2.mapper.PokemonEnricher;
 import devmind.workshop_2.mapper.PokemonMapper;
 import org.springframework.web.bind.annotation.RequestMapping;
